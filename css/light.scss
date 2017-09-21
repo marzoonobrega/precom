@@ -1,0 +1,114 @@
+/*
+______________________________________
+______________________________________
+
+LIGHT THEME
+______________________________________
+______________________________________
+*/
+
+  $color-page-background-dark: #FFF;
+  $color-darkgrey-dark: #333;
+  $color-lightgrey-dark: #6b6b6b;
+  $color-bright-dark: #d34836;
+  $color-border-dark: #f4f5f6;
+  $color-shadow-dark: rgba(0, 0, 0, 0.08);
+
+
+body {
+  background: $color-page-background-dark;
+  color: $color-lightgrey-dark;
+}
+
+* {
+  transition: all .2s ease-in;
+}
+
+h1 {
+  color: color-bright-dark;
+}
+
+h5 {
+  color: $color-darkgrey-dark;
+}
+
+h6 {
+  color: $color-lightgrey-dark;
+}
+
+a {
+  color: $color-lightgrey-dark;
+}
+
+a:focus, a:hover {
+  color: color-bright-dark;
+}
+
+
+hr {
+  border-top: 0.1rem solid color-bright-dark;
+}
+
+td, th {
+  border-bottom: 0.1rem solid $color-border-dark;
+}
+
+.navbar {
+  background: $color-page-background-dark;
+  box-shadow: 0px 3px 8px $color-shadow-dark; }
+
+  .navbar a.site-title {
+    color: $color-page-background-dark;
+}
+
+
+.shadow{
+  box-shadow: $color-shadow-dark;
+}
+
+#sidebar {
+  background: $color-page-background-dark;
+  box-shadow: 0px 3px 8px $color-shadow-dark; 
+}
+
+#sidebar ul li a:hover {
+      color: $color-bright-dark;
+}
+
+.large-card {
+  background: $color-page-background-dark;
+  box-shadow: $color-shadow-dark;
+}
+
+.background-primary {
+  background: #666; }
+
+.progress-bar {
+  background: $color-page-background-dark;
+}
+
+[data-switch-contrast] {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: $color-page-background-dark; 
+  border: 1px solid $color-lightgrey-dark;
+  color: $color-page-background-dark;
+  border-radius: 50%;
+}
+
+form input{
+  background: $color-page-background-dark;
+  color: $color-lightgrey-dark;
+  border: none;
+}
+
+form .btn{
+  background: $color-lightgrey-dark;
+}
+
+form .boxin{
+  background: $color-lightgrey-dark;
+}

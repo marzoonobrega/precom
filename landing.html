@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Lincoln Inc</title>
+	
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div id="interface">
+   <link rel="stylesheet" v-bind:href="current_template.value">
+
+
+	<div class="navbar">
+		<div class="row">
+	    <div class="column column-30 col-site-title"><a href="#" class="websitename">Lincoln Inc</a></div>	
+		</div>
+	</div>
+	<div class="row">
+		<div id="sidebar" class="column">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="dash.html#dashboard">DASHBOARD</a></li>
+				<li><a href="dash.html#projects">PROJECTS</a></li>
+				<li><a href="dash.html#artists">ARTISTS</a></li>
+				      <template v-for="template in templates">
+        <button v-on:click="setTemplate(template.id)">{{ template.name }}</button>
+      </template>
+				
+			</ul>
+		</div>
+		<section id="main-content" class="column column-offset-20">
+			<div class="row grid-responsive">
+				<div class="column page-heading">
+					<div class="large-card">
+						<h1>Welcome to the Dashboard</h1>
+						<a class="anchor" name="dashboard"></a>
+						<img src="img/main.jpg">
+						<p class="text-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum odio quis nisi sollicitudin tempor. Suspendisse quis nulla at neque eleifend aliquet. Curabitur in efficitur ante, non hendrerit mauris. Etiam id dolor ac neque tempor finibus. Maecenas bibendum, quam vel tincidunt vehicula, orci leo scelerisque nibh, tempus pharetra diam magna at justo. Phasellus euismod tortor dapibus nulla fermentum, id pharetra metus tempor. Nam condimentum odio orci.</p>
+					</div>
+				</div>
+			</div>
+
+
+
+   <div>
+ 
+    </section>
+  </div>
+</div>
+<!--  VENDOR JAVASCRIPT -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+<script src='https://unpkg.com/sortablejs@1.4.2'></script>
+<script src='https://use.fontawesome.com/a112fe1b1b.js'></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+
+
+
+  <!--  MY JAVASCRIPT -->
+    <script src="js/table.js"></script>	
+    <script src="js/modal.js"></script>		
+	<script src="js/application.js"></script>		
+	<script src="js/chart-data.js"></script>
+	<script src="js/chart.min.js"></script>
+	
+</body>
+  
+</html> 

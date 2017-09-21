@@ -1,0 +1,86 @@
+/*
+______________________________________
+______________________________________
+
+LIGHT THEME
+______________________________________
+______________________________________
+*/
+body {
+  background: #FFF;
+  color: #6b6b6b; }
+
+* {
+  transition: all .2s ease-in; }
+
+h1 {
+  color: color-bright-dark; }
+
+h5 {
+  color: #333; }
+
+h6 {
+  color: #6b6b6b; }
+
+a {
+  color: #6b6b6b; }
+
+a:focus, a:hover {
+  color: color-bright-dark; }
+
+hr {
+  border-top: 0.1rem solid color-bright-dark; }
+
+td, th {
+  border-bottom: 0.1rem solid #f4f5f6; }
+
+.navbar {
+  background: #FFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08); }
+
+.navbar a.site-title {
+  color: #FFF; }
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.08); }
+
+#sidebar {
+  background: #FFF;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08); }
+
+#sidebar ul li a:hover {
+  color: #d34836; }
+
+.large-card {
+  background: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.08); }
+
+.background-primary {
+  background: #666; }
+
+.progress-bar {
+  background: #FFF; }
+
+[data-switch-contrast] {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: #FFF;
+  border: 1px solid #6b6b6b;
+  color: #FFF;
+  border-radius: 50%; }
+
+form input {
+  background: #FFF;
+  color: #6b6b6b;
+  border: none; }
+
+form .btn {
+  background: #6b6b6b; }
+
+form .boxin {
+  background: #6b6b6b; }
+
+/*# sourceMappingURL=light.css.map */

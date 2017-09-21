@@ -1,0 +1,120 @@
+/*
+______________________________________
+______________________________________
+
+DARK THEME
+______________________________________
+______________________________________
+*/
+  $color-page-background-light: #000;
+  $color-darkgrey-light: #333;
+  $color-lightgrey-light: #6b6b6b;
+  $color-bright-light: #d34836;
+  $color-border-light: #000;
+  $color-shadow-light: rgba(255,255,255, 0.3);
+
+body {
+  background: $color-page-background-light;
+  color: $color-lightgrey-light;
+}
+
+* {
+  transition: all .2s ease-in;
+}
+
+h1 {
+  color: $color-bright-light;
+}
+
+h5 {
+  color: $color-darkgrey-light;
+}
+
+h6 {
+  color: $color-lightgrey-light;
+}
+
+a {
+  color: $color-lightgrey-light;
+}
+
+a:focus, a:hover {
+  color: color-bright-light;
+}
+
+button{
+  background-color: $color-darkgrey-light;
+}
+
+
+hr {
+  border-top: 0.1rem solid color-bright-light;
+}
+
+td, th {
+  border-bottom: 0.1rem solid $color-border-light;
+}
+
+.navbar {
+  background: $color-page-background-light;
+  box-shadow: 0px 3px 8px $color-shadow-light; }
+
+  .navbar a.site-title {
+    color: $color-page-background-light;
+}
+
+
+.shadow{
+  box-shadow: $color-shadow-light;
+}
+
+#sidebar {
+  background: $color-page-background-light;
+  box-shadow: 0px 3px 8px $color-shadow-light; 
+}
+
+#sidebar ul li a:hover {
+      color: $color-bright-light;
+}
+
+.large-card {
+  background: $color-page-background-light;
+  box-shadow: $color-shadow-light;
+}
+
+.background-primary {
+  background: #666; }
+
+.progress-bar {
+  background: $color-page-background-light;
+}
+
+[data-switch-contrast] {
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  height: 3rem;
+  width: 3rem;
+  background-color: $color-page-background-light; 
+  border: 1px solid $color-lightgrey-light;
+  color: $color-page-background-light;
+  border-radius: 50%;
+}
+
+form input{
+  background: $color-page-background-light;
+  color: $color-lightgrey-light;
+  border: none;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  button: $color-lightgrey-light;
+}
+
+form .btn{
+  background: $color-lightgrey-light;
+}
+
+form .boxin{
+  background: $color-lightgrey-light;
+}
